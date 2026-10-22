@@ -1,0 +1,26 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0);
+  height: 10vh;
+}
+
+.emoji-center-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 80%;
+}
+.display-none {
+  display: none;
+}
